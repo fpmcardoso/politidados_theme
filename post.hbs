@@ -7,19 +7,14 @@
 
                 {{#if tags}}<span class="tags animated fadeInUp"><i class="fa fa-tags"></i> {{tags prefix="" separator=", "}}</span>{{/if}}
                 <br />
-                <span class="post-data"><span class="date animated fadeInUp"><i class="fa fa-clock-o"></i> <time class="timesince date" data-timesince="{{date format='X'}}" datetime="{{date format='YYYY-MM-DDTHH:mm'}}" title="{{date format='DD MMMM YYYY'}}">{{date published_at timeago='true'}}</time></span>
-                <p></p>
-
             </div>
         </div>
     </div>
     <br />
     <div class="container bg-white">
         <br /> {{content}}
-
-
         {{#author}}
-            <h1 class="text-xs-center">About the Author</h1>
+            <h1 class="text-xs-center">Sobre o autor</h1>
             <br />
             <div class="row">
                 <div class="col-sm-3 col-xs-12">
